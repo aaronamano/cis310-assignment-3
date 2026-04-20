@@ -14,10 +14,6 @@
           <string>Label</string>
           <string>clk</string>
         </entry>
-        <entry>
-          <string>Frequency</string>
-          <int>2</int>
-        </entry>
       </elementAttributes>
       <pos x="-60" y="120"/>
     </visualElement>
