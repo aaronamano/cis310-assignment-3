@@ -198,20 +198,6 @@
       <pos x="1500" y="580"/>
     </visualElement>
     <visualElement>
-      <elementName>Demultiplexer</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Selector Bits</string>
-          <int>3</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="60" y="460"/>
-    </visualElement>
-    <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
@@ -224,6 +210,20 @@
         </entry>
       </elementAttributes>
       <pos x="1760" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Decoder</elementName>
+      <elementAttributes>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Selector Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="60" y="460"/>
     </visualElement>
   </visualElements>
   <wires>
